@@ -285,6 +285,7 @@ max-width: 275px;
 }
 .contact__massandger {
 	margin: 0 auto;
+	margin-bottom: 45px;
 	max-width: 944px;
 	display: flex;
 	justify-content: center;
@@ -301,22 +302,22 @@ max-width: 275px;
 }
 .contact__dribble {
 }
+.contact__footer{
+	text-align: center;
+	font-family: Gilroy-Medium;
+	font-size: 14px;
+	line-height: 16,98px;
+	margin-bottom: 100px;
+	color: #828282;
 
-
-
-
-
-
-
-
-
+}
 
 
 @font-face {
 	font-family: Gilroy-Bold;
-	src: url(/font/Gilroy-Bold.ttf);
+	src: url(../font/Gilroy-Bold.ttf);
 }
 @font-face {
 	font-family: Gilroy-Medium ;
-	src: url(/font/Gilroy-Medium.ttf);
+	src: url(../font/Gilroy-Medium.ttf);
 }
