@@ -1,0 +1,322 @@
+*{
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+.box{
+	position: relative;
+}
+
+
+
+/*_____Шапка сайта_____*/
+
+.header {
+	
+	margin: 0 auto;
+	position: sticky;
+	top: 0px;
+	background-color: #FFFF;
+}
+.header__menu {
+	max-width: 944px;
+	margin: 0 auto;
+	padding-top: 33px;
+	display: flex;
+	justify-content: space-between;
+}
+.header__menu a{
+	text-decoration: none;
+	font-family: Gilroy-Bold;
+	color:#828282;
+	transition: color 0.1s;
+	margin-bottom: 32px;
+}
+.header__menu a:hover{
+	color:  #070707;
+}
+.header__menu a:active{
+	transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	
+}
+.header:after{
+	content: '';
+	max-width: 944px;
+	margin: 0 auto;
+	background-color: #828282;
+	height: 2px;
+	display: block;
+	margin-bottom: 40px;
+}
+
+/*_____Главная инфрмация_____*/
+.article {
+	max-width: 944px;
+	margin: 0 auto;
+}
+.article__info {
+display: flex;
+justify-content: space-between;
+padding-bottom: 30px;
+font-family: Gilroy;
+}
+.article__name {
+	font-family: Gilroy-Bold;
+font-size: 47px;
+line-height: 59px;
+max-width: 123px;
+}
+.article__bio {
+	font-family: Gilroy-medium;
+	font-weight: 100;
+line-height: 22px;
+display: flex;
+align-items: flex-end;
+max-width: 155.65px;
+}
+.article__launge {
+	display: flex;
+	
+}
+.article__launge-selection{
+}
+.article__foto {
+max-width: 944px;
+padding-bottom: 105px;
+}
+.ru::after{
+	content: '|';
+	color: #828282;
+	size: 20px;
+	display: block;
+}
+
+/*_____биография_____*/
+
+.Biography{
+background: #F6F6F6;
+}
+.Biography__text{
+	max-width: 944px;
+	margin: 0 auto;
+}
+.Biography__text-size{
+	max-width: 485px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 107px;
+}
+.Biography h1{
+font-family: Gilroy-Bold;
+font-size: 34px;
+text-align: center;
+padding-bottom: 18px;
+padding-top: 120px;
+}
+.Biography p{
+font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+}
+.Biography__text-p{
+	padding-top: 43px;
+	padding-bottom: 43px;
+}
+
+/*_____умения_____*/
+
+.skills {
+	max-width: 944px;
+	margin: 0 auto;
+}
+.skills__logo {
+	padding-top: 90px;
+	padding-bottom: 69px;
+	font-family: Gilroy-Bold;
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+
+}
+.skills__text {
+	font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+padding-bottom: 88px;
+}
+
+.skills__programs {
+	display: flex;
+	justify-content: space-between;
+}
+.skills__program__Ps {
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+}    
+  
+.skills__program__Ps img{
+	max-width: 89px;
+	max-height: 88px;
+	
+}
+.skills__program__Ai {
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+}
+.skills__program__Ai img{
+	max-width: 89px;
+	max-height: 88px;
+	
+}
+.skills__program__Ae {
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	
+}
+.skills__program__Ae img{
+	max-width: 89px;
+	max-height: 88px;
+}
+.skills__program__figma {
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+}
+.skills__program__figma img{
+	max-width: 89px;
+	max-height: 88px;
+	pa
+}
+.skills__programname{
+padding-top: 28px;
+padding-bottom: 40px;
+font-family: Gilroy-Bold;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #828282;
+}
+.skills__lvl{
+width: 85px;
+height: 25px;
+margin-bottom: 110px;
+}
+/*_____портфолио_____*/
+.portfolio {
+	background-color: #F6F6F6;
+	margin: 0 auto;
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio__logo {
+	padding-top: 110px;
+	padding-bottom: 45px;
+	text-align: center;
+	font-size: 34px;
+	font-family: Gilroy-Bold;
+	pa
+}
+.portfolio__examle img {
+	margin: 0 auto;
+	max-width: 930px;
+	max-height: 530px;
+	padding-bottom: 45px;
+}
+
+
+.portfolio__link {
+	margin-bottom: 95px;
+	font-family:Gilroy-Medium;
+	text-decoration: underline;
+	color: #070707;
+}
+.portfolio__link:active{
+transform: translateY(-1px);
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.portfolio__link:after{
+}
+/*_____Контактные данные_____*/
+.contact {
+}
+.contact__logo {
+	padding-top: 115px;
+	margin-bottom: 55px;
+	text-align: center;
+	font-family: Gilroy-Bold;
+	font-size: 34px;
+}
+.contact__text {
+	margin: 0 auto;
+	margin-bottom: 30px;
+font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+max-width: 275px;
+}
+.contact__button {
+	margin: 0 auto;
+	margin-bottom: 85px;
+	display: block;
+	width: 180px;
+	height: 45px;
+	background-color: #070707;
+	border-color:  #070707;
+	border-radius: 15px;
+	color: #FFFF;
+	font-family: Gilroy-Bold;
+	cursor: pointer;
+}
+.contact__button:active{
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.contact__massandger {
+	margin: 0 auto;
+	max-width: 944px;
+	display: flex;
+	justify-content: center;
+}
+.contact__massandger  img {
+	width: 40px;
+	height: 40px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.contact__instagram {
+}
+.contact__be {
+}
+.contact__dribble {
+}
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+	font-family: Gilroy-Bold;
+	src: url(/font/Gilroy-Bold.ttf);
+}
+@font-face {
+	font-family: Gilroy-Medium ;
+	src: url(/font/Gilroy-Medium.ttf);
+}
